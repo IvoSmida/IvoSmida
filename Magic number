@@ -1,0 +1,7 @@
+/challenge/cimg
+#Header má byť 4-bajtový
+#pomocou echo zapíšeme do example.cimg reťazec "abcd",
+ale program hlási nesprávny magic number
+#dôvod je že magic number má byť zapísaný v tvare b""
+#funguje
+(/challenge/cimg example.cimg)
